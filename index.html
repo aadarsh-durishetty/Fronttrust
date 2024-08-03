@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fronttrust | When Banking taps Future</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+          designer="Jonas"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Feedbacks</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal-signup" href="#"
+              >Sign Up</a
+            >
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal-signin" href="#"
+              >Sign In</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          When
+          <span class="highlight">Banking</span>
+          taps<br />
+          <span class="highlight">Future.</span>
+        </h1>
+        <h4>A seamless banking experience, one click away.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a modern bank and more.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% digital bank</h5>
+          <p>
+            Experience a fully digital banking revolution with our app. Enjoy instant account access, seamless money transfers, smart budgeting tools, and 24/7 support, all from the convenience of your device.</p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow</h5>
+          <p>
+            With our app, you can easily monitor your investments and savings progress. Set financial goals, track your spending, and receive personalized insights to help you maximize your returns.
+          </p>
+        </div>
+        <img
+          src="img/grow.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free debit card included</h5>
+          <p>
+            Enjoy the convenience of a free debit card with every account. Make purchases, withdraw cash, and manage your spending effortlessly. Our debit card comes with no hidden fees and is accepted worldwide.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Everything made seamless and hastle-free.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant Transfers
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Instant Loans
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Instant Closing
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Tranfser money to anyone, instantly! No fees, no BS.
+          </h5>
+          <p>
+            Send money instantly to anyone, anywhere, with zero fees. Our app makes it simple and fast to transfer funds, whether it's to friends, family, or businesses. Enjoy a transparent and hassle-free experience with no hidden charges or unnecessary delays, just quick, easy transactions at your fingertips.</p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Buy a home or make your dreams come true, with instant loans.
+          </h5>
+          <p>
+            Achieve your dreams with our instant loans, whether you're buying a home or planning a big project. Our app offers quick approval and competitive rates, making it easier than ever to secure the funding you need. Enjoy a streamlined application process and personalized loan options, all at your fingertips.</p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            No longer need your account? No problem! Close it instantly.
+          </h5>
+          <p>
+            Closing your account has never been easier. With our app, you can instantly close your account anytime, hassle-free. No long forms, no waiting, just a simple, secure process to help you move on when you're ready. We're committed to your convenience and flexibility, every step of the way.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Check what our users have to say!</h2>
+        <h3 class="section__header">
+          Millions of people are already making their lifes hastle-free.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best bank application ever!</h5>
+            <blockquote class="testimonial__text">
+              Absolutely love this app! It's intuitive, fast, and makes managing my finances a breeze. From instant transfers to easy loan applications, everything is just a tap away. The free debit card is a great bonus, and closing my account was hassle-free. Truly the best bank app I've used!</blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Daniel Thompson</h6>
+              <p class="testimonial__location">Texas, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              High accessibility and friendly assistance!
+            </h5>
+            <blockquote class="testimonial__text">
+              This app is incredibly accessible and user-friendly! The interface is easy to navigate, and the customer support team is always ready to assist with any questions. I appreciate the inclusive design that makes banking simple for everyone. The best part? Friendly assistance is just a message away!</blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Emily Carter</h6>
+              <p class="testimonial__location">Austin, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally no more dealing with failed transactions!
+            </h5>
+            <blockquote class="testimonial__text">
+              Finally, a banking app that works seamlessly! No more dealing with frustrating failed transactions. Everything processes smoothly, whether I'm paying bills or transferring money. It's reliable and efficient, giving me peace of mind with every transaction. This app truly delivers on its promise of hassle-free banking.</blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Michael Evans</h6>
+              <p class="testimonial__location">Miami, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Join the Fronttrust and be a part of exclusive community.
+        </h3>
+      </div>
+      <button class="btn btn--show-modal-signup">Open your free account today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://twitter.com/jonasschmedtman">
+          Fronttrust Finance Ltd 2024.</a>
+      </p>
+    </footer>
+
+    <div class="modal hidden" id="modal-signup">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Sign up for <span class="highlight">Fronttrust,</span> <br />
+        and enable <span class="highlight">lightening speed</span> transactions.
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" id="signup-firstname" />
+        <label>Last Name</label>
+        <input type="text" id="signup-lastname" />
+        <label>Email Address</label>
+        <input type="email" id="signup-email" />
+        <button class="btn" type="button" id="nextStepSignup">Next step &rarr;</button>
+      </form>
+    </div>
+
+    <div class="modal hidden" id="modal-signup-step2">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Complete your <span class="highlight">Fronttrust</span> account setup
+      </h2>
+      <form class="modal__form">
+        <label>Username</label>
+        <input type="text" id="signup-username" />
+        <label>Password</label>
+        <input type="password" id="signup-password" />
+        <button class="btn" type="button" id="submitSignupForm">Submit &rarr;</button>
+      </form>
+    </div>
+
+    <div class="modal hidden" id="modal-signin">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Sign in to <span class="highlight">Fronttrust</span> <br />
+      </h2>
+      <form class="modal__form">
+        <label>Username</label>
+        <input type="text" id="signin-username" />
+        <label>Password</label>
+        <input type="password" id="signin-password" />
+        <button class="btn" type="button" id="submitSigninForm">Sign In &rarr;</button>
+      </form>
+    </div>
+
+    <div class="overlay hidden"></div>
+  </body>
+</html>
